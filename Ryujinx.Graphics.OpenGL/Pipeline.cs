@@ -53,7 +53,7 @@ namespace Ryujinx.Graphics.OpenGL
 
             float[] colors = new float[] { color.Red, color.Green, color.Blue, color.Alpha };
 
-            GL.ClearBuffer(ClearBuffer.Color, index, colors);
+            //GL.ClearBuffer(ClearBuffer.Color, index, colors);
 
             RestoreComponentMask(index);
         }
